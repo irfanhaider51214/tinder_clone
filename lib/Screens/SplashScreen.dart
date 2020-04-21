@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: new Image(
           width: ScreenUtil().setWidth(200.0),
           height: ScreenUtil().setHeight(200.0),
-          image: new AssetImage('assets/images/tinder_logo.png'),
+          image: new AssetImage('assets/images/LITT.png'),
         ),
       ),
     );
