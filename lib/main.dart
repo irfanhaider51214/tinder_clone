@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tinder Clone',
+      title: 'LiTT',
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(253, 41, 123, 1.0),
-        secondaryHeaderColor: Color.fromRGBO(255, 88, 100, 1.0),
+        primaryColor: Colors.red,
+        secondaryHeaderColor: Colors.black,
         accentColor: Color.fromRGBO(255, 101, 91, 1.0)
       ),
       home : SplashScreen(),
